@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #bad4aa;
+    color: #ebf5df;
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 32px;
+    border-bottom: 5px solid #f4f1bb;
+    margin-bottom: 10px;
+} 
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin: 10px;
+}
